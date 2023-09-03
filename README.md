@@ -67,7 +67,20 @@ WebDriverManager is part of [OpenCollective], an online funding platform for ope
 
 ### YOUTUBE
 Ver como colocar youtube aqui
-
+[Logo]: https://bonigarcia.github.io/img/wdm.png
+[WebDriverManager]: https://bonigarcia.dev/webdrivermanager/
+[Selenium WebDriver]: https://www.selenium.dev/documentation/webdriver/
+[JUnit 5]: https://junit.org/junit5/
+[Docker]: https://www.docker.com/
+[Docker Engine]: https://docs.docker.com/engine/
+[Docker Hub]: https://hub.docker.com/
+[noVNC]: https://novnc.com/
+[OpenCollective]: https://opencollective.com/webdrivermanager
+[donation]: https://opencollective.com/webdrivermanager/donate
+[recurring contribution]: https://opencollective.com/webdrivermanager/contribute/backer-8132/checkout
+[sponsor]: https://opencollective.com/webdrivermanager/contribute/sponsor-8133/checkout
+[Boni Garcia]: https://bonigarcia.dev/
+[Apache 2.0 License]: https://www.apache.org/licenses/LICENSE-2.0
 ### novos titulos e subtitulos
 
 ## About
