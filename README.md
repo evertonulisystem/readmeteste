@@ -24,39 +24,6 @@ import org.junit.jupiter.api.BeforeAll;
 Exemplo de código nestes 3 acentos
 ```
 
-Alternatively, you can use the method `create()` to manage automatically the driver and instantiate the `WebDriver` object in a single line. For instance, as follows:
-
-```java
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
-
-class ChromeCreateTest {
-
-    WebDriver driver;
-
-    @BeforeEach
-    void setup() {
-        driver = WebDriverManager.chromedriver().create();
-    }
-
-    @AfterEach
-    void teardown() {
-        driver.quit();
-    }
-
-    @Test
-    void test() {
-        // Your test logic here
-    }
-
-}
-```
-
 For further information about the driver resolution algorithm implemented by WebDriverManager and configuration capabilities, read the [documentation][WebDriverManager].
 
 ## Browsers in Docker
@@ -98,24 +65,10 @@ class DockerChromeVncTest {
 ## Support
 WebDriverManager is part of [OpenCollective], an online funding platform for open and transparent communities. You can support the project by contributing as a backer (i.e., a personal [donation] or [recurring contribution]) or as a [sponsor] (i.e., a recurring contribution by a company).
 
-### Backers
-<a href="https://opencollective.com/webdrivermanager" target="_blank"><img src="https://opencollective.com/webdrivermanager/backers.svg?width=890"></a>
+### YOUTUBE
+Ver como colocar youtube aqui
 
-### Sponsors
-<a href="https://opencollective.com/webdrivermanager/sponsor/0/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/1/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/2/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/3/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/4/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/5/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/6/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/7/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/8/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/webdrivermanager/sponsor/9/website" target="_blank"><img src="https://opencollective.com/webdrivermanager/sponsor/9/avatar.svg"></a>
-
-Alternatively, you can acknowledge my work by buying me a coffee:
-
-<p><a href="https://www.buymeacoffee.com/bonigarcia"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210"/></a></p><br><br>
+### novos titulos e subtitulos
 
 ## About
 WebDriverManager (Copyright &copy; 2015-2023) is a project created and maintained by [Boni Garcia] and licensed under the terms of the [Apache 2.0 License].
